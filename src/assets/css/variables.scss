@@ -1,0 +1,16 @@
+:root {
+  --font-sans: helvetica, arial, sans-serif;
+  --font-mono: 'andale mono', monospace;
+
+  // colors
+  --color-blue: #16008f;
+  --color-black: #111;
+  --color-white: #eee;
+}
+
+body {
+  --font-main: var(--font-mono);
+  --color-background: var(--color-white);
+  --color-text: var(--color-black);
+  --color-highlight: var(--color-blue);
+}
